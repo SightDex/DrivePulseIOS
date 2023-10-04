@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		531BD7522ACA39E600598881 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531BD7512ACA39E600598881 /* HomeView.swift */; };
+		531BD7542ACA3B3500598881 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531BD7532ACA3B3500598881 /* SettingsView.swift */; };
+		531BD7562ACA3BD500598881 /* EventHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531BD7552ACA3BD500598881 /* EventHistoryView.swift */; };
+		531BD75B2ACA41A600598881 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531BD75A2ACA41A600598881 /* APIController.swift */; };
+		533F2E6D2AC276030018A02C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533F2E6C2AC276030018A02C /* RegisterView.swift */; };
+		533F2E6F2AC2764E0018A02C /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533F2E6E2AC2764E0018A02C /* DashboardView.swift */; };
+		533F2E712AC27E5D0018A02C /* UtilService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533F2E702AC27E5D0018A02C /* UtilService.swift */; };
+		533F2E732AC282A10018A02C /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533F2E722AC282A10018A02C /* ViewExtensions.swift */; };
+		5351B0FD2AC1D8FB0041ACBD /* DrivePulseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5351B0FC2AC1D8FB0041ACBD /* DrivePulseApp.swift */; };
+		5351B0FF2AC1D8FB0041ACBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5351B0FE2AC1D8FB0041ACBD /* ContentView.swift */; };
+		5351B1012AC1D8FD0041ACBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5351B1002AC1D8FD0041ACBD /* Assets.xcassets */; };
+		5351B1052AC1D8FD0041ACBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5351B1042AC1D8FD0041ACBD /* Preview Assets.xcassets */; };
+		5351B1102AC1D9440041ACBD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5351B10F2AC1D9440041ACBD /* LoginView.swift */; };
+		5351B1122AC1D9670041ACBD /* BluetoothService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5351B1112AC1D9670041ACBD /* BluetoothService.swift */; };
+		5351B1142AC1D9AD0041ACBD /* MQTTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5351B1132AC1D9AD0041ACBD /* MQTTService.swift */; };
+		5351B1182AC1DA740041ACBD /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5351B1172AC1DA740041ACBD /* AuthViewModel.swift */; };
+		53AC16022ACD82AD00264172 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC16012ACD82AD00264172 /* MainView.swift */; };
+		53EB54262AC5090800D18956 /* BLEController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB54252AC5090800D18956 /* BLEController.swift */; };
+		53EB54282AC5095000D18956 /* GyroDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB54272AC5095000D18956 /* GyroDataModel.swift */; };
+		53EB542A2AC5099900D18956 /* LiveDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB54292AC5099900D18956 /* LiveDataView.swift */; };
+		53EB542D2AC516AE00D18956 /* CocoaMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = 53EB542C2AC516AE00D18956 /* CocoaMQTT */; };
+		53EB542F2AC516AE00D18956 /* CocoaMQTTWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 53EB542E2AC516AE00D18956 /* CocoaMQTTWebSocket */; };
+		53EB54312AC630B300D18956 /* WiFiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB54302AC630B300D18956 /* WiFiService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		531BD7502ACA343B00598881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		531BD7512ACA39E600598881 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		531BD7532ACA3B3500598881 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		531BD7552ACA3BD500598881 /* EventHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHistoryView.swift; sourceTree = "<group>"; };
+		531BD75A2ACA41A600598881 /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		533F2E6C2AC276030018A02C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		533F2E6E2AC2764E0018A02C /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		533F2E702AC27E5D0018A02C /* UtilService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilService.swift; sourceTree = "<group>"; };
+		533F2E722AC282A10018A02C /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		5351B0F92AC1D8FB0041ACBD /* DrivePulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrivePulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5351B0FC2AC1D8FB0041ACBD /* DrivePulseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivePulseApp.swift; sourceTree = "<group>"; };
+		5351B0FE2AC1D8FB0041ACBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5351B1002AC1D8FD0041ACBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5351B1022AC1D8FD0041ACBD /* DrivePulse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DrivePulse.entitlements; sourceTree = "<group>"; };
+		5351B1042AC1D8FD0041ACBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5351B10F2AC1D9440041ACBD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5351B1112AC1D9670041ACBD /* BluetoothService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothService.swift; sourceTree = "<group>"; };
+		5351B1132AC1D9AD0041ACBD /* MQTTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTService.swift; sourceTree = "<group>"; };
+		5351B1172AC1DA740041ACBD /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		53AC16012ACD82AD00264172 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		53EB54252AC5090800D18956 /* BLEController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEController.swift; sourceTree = "<group>"; };
+		53EB54272AC5095000D18956 /* GyroDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroDataModel.swift; sourceTree = "<group>"; };
+		53EB54292AC5099900D18956 /* LiveDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDataView.swift; sourceTree = "<group>"; };
+		53EB54302AC630B300D18956 /* WiFiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5351B0F62AC1D8FB0041ACBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EB542F2AC516AE00D18956 /* CocoaMQTTWebSocket in Frameworks */,
+				53EB542D2AC516AE00D18956 /* CocoaMQTT in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		531BD7572ACA403400598881 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5351B0F02AC1D8FB0041ACBD = {
+			isa = PBXGroup;
+			children = (
+				5351B0FB2AC1D8FB0041ACBD /* DrivePulse */,
+				5351B0FA2AC1D8FB0041ACBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5351B0FA2AC1D8FB0041ACBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5351B0F92AC1D8FB0041ACBD /* DrivePulse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5351B0FB2AC1D8FB0041ACBD /* DrivePulse */ = {
+			isa = PBXGroup;
+			children = (
+				531BD7572ACA403400598881 /* Utils */,
+				531BD7502ACA343B00598881 /* Info.plist */,
+				5351B10E2AC1D9360041ACBD /* Services */,
+				5351B10D2AC1D9260041ACBD /* Controllers */,
+				5351B10C2AC1D91D0041ACBD /* Views */,
+				5351B10B2AC1D9150041ACBD /* Models */,
+				5351B0FC2AC1D8FB0041ACBD /* DrivePulseApp.swift */,
+				5351B0FE2AC1D8FB0041ACBD /* ContentView.swift */,
+				5351B1002AC1D8FD0041ACBD /* Assets.xcassets */,
+				5351B1022AC1D8FD0041ACBD /* DrivePulse.entitlements */,
+				5351B1032AC1D8FD0041ACBD /* Preview Content */,
+			);
+			path = DrivePulse;
+			sourceTree = "<group>";
+		};
+		5351B1032AC1D8FD0041ACBD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5351B1042AC1D8FD0041ACBD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5351B10B2AC1D9150041ACBD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5351B1172AC1DA740041ACBD /* AuthViewModel.swift */,
+				53EB54272AC5095000D18956 /* GyroDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5351B10C2AC1D91D0041ACBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5351B10F2AC1D9440041ACBD /* LoginView.swift */,
+				533F2E6C2AC276030018A02C /* RegisterView.swift */,
+				533F2E6E2AC2764E0018A02C /* DashboardView.swift */,
+				533F2E722AC282A10018A02C /* ViewExtensions.swift */,
+				53EB54292AC5099900D18956 /* LiveDataView.swift */,
+				531BD7512ACA39E600598881 /* HomeView.swift */,
+				531BD7532ACA3B3500598881 /* SettingsView.swift */,
+				531BD7552ACA3BD500598881 /* EventHistoryView.swift */,
+				53AC16012ACD82AD00264172 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5351B10D2AC1D9260041ACBD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				53EB54252AC5090800D18956 /* BLEController.swift */,
+				531BD75A2ACA41A600598881 /* APIController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5351B10E2AC1D9360041ACBD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5351B1112AC1D9670041ACBD /* BluetoothService.swift */,
+				5351B1132AC1D9AD0041ACBD /* MQTTService.swift */,
+				533F2E702AC27E5D0018A02C /* UtilService.swift */,
+				53EB54302AC630B300D18956 /* WiFiService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5351B0F82AC1D8FB0041ACBD /* DrivePulse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5351B1082AC1D8FD0041ACBD /* Build configuration list for PBXNativeTarget "DrivePulse" */;
+			buildPhases = (
+				5351B0F52AC1D8FB0041ACBD /* Sources */,
+				5351B0F62AC1D8FB0041ACBD /* Frameworks */,
+				5351B0F72AC1D8FB0041ACBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrivePulse;
+			packageProductDependencies = (
+				53EB542C2AC516AE00D18956 /* CocoaMQTT */,
+				53EB542E2AC516AE00D18956 /* CocoaMQTTWebSocket */,
+			);
+			productName = DrivePulse;
+			productReference = 5351B0F92AC1D8FB0041ACBD /* DrivePulse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5351B0F12AC1D8FB0041ACBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5351B0F82AC1D8FB0041ACBD = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 5351B0F42AC1D8FB0041ACBD /* Build configuration list for PBXProject "DrivePulse" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5351B0F02AC1D8FB0041ACBD;
+			packageReferences = (
+				533F2E742AC3A8C50018A02C /* XCRemoteSwiftPackageReference "Eureka" */,
+				53EB542B2AC516AD00D18956 /* XCRemoteSwiftPackageReference "CocoaMQTT" */,
+			);
+			productRefGroup = 5351B0FA2AC1D8FB0041ACBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5351B0F82AC1D8FB0041ACBD /* DrivePulse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5351B0F72AC1D8FB0041ACBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5351B1052AC1D8FD0041ACBD /* Preview Assets.xcassets in Resources */,
+				5351B1012AC1D8FD0041ACBD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5351B0F52AC1D8FB0041ACBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533F2E6D2AC276030018A02C /* RegisterView.swift in Sources */,
+				5351B1122AC1D9670041ACBD /* BluetoothService.swift in Sources */,
+				53EB54262AC5090800D18956 /* BLEController.swift in Sources */,
+				531BD7522ACA39E600598881 /* HomeView.swift in Sources */,
+				5351B1102AC1D9440041ACBD /* LoginView.swift in Sources */,
+				53AC16022ACD82AD00264172 /* MainView.swift in Sources */,
+				533F2E712AC27E5D0018A02C /* UtilService.swift in Sources */,
+				5351B1142AC1D9AD0041ACBD /* MQTTService.swift in Sources */,
+				533F2E6F2AC2764E0018A02C /* DashboardView.swift in Sources */,
+				531BD75B2ACA41A600598881 /* APIController.swift in Sources */,
+				5351B1182AC1DA740041ACBD /* AuthViewModel.swift in Sources */,
+				531BD7542ACA3B3500598881 /* SettingsView.swift in Sources */,
+				53EB542A2AC5099900D18956 /* LiveDataView.swift in Sources */,
+				5351B0FF2AC1D8FB0041ACBD /* ContentView.swift in Sources */,
+				533F2E732AC282A10018A02C /* ViewExtensions.swift in Sources */,
+				53EB54282AC5095000D18956 /* GyroDataModel.swift in Sources */,
+				53EB54312AC630B300D18956 /* WiFiService.swift in Sources */,
+				531BD7562ACA3BD500598881 /* EventHistoryView.swift in Sources */,
+				5351B0FD2AC1D8FB0041ACBD /* DrivePulseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5351B1062AC1D8FD0041ACBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5351B1072AC1D8FD0041ACBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5351B1092AC1D8FD0041ACBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DrivePulse/DrivePulse.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrivePulse/Preview Content\"";
+				DEVELOPMENT_TEAM = 78DQ849LWT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DrivePulse/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "\"We are required to use your Bluetooth\"";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "\"We are required to use your Bluetooth\"";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sightDEX.DrivePulse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5351B10A2AC1D8FD0041ACBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DrivePulse/DrivePulse.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrivePulse/Preview Content\"";
+				DEVELOPMENT_TEAM = 78DQ849LWT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DrivePulse/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "\"We are required to use your Bluetooth\"";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "\"We are required to use your Bluetooth\"";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sightDEX.DrivePulse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5351B0F42AC1D8FB0041ACBD /* Build configuration list for PBXProject "DrivePulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5351B1062AC1D8FD0041ACBD /* Debug */,
+				5351B1072AC1D8FD0041ACBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5351B1082AC1D8FD0041ACBD /* Build configuration list for PBXNativeTarget "DrivePulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5351B1092AC1D8FD0041ACBD /* Debug */,
+				5351B10A2AC1D8FD0041ACBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		533F2E742AC3A8C50018A02C /* XCRemoteSwiftPackageReference "Eureka" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xmartlabs/Eureka.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+		53EB542B2AC516AD00D18956 /* XCRemoteSwiftPackageReference "CocoaMQTT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/emqx/CocoaMQTT";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		53EB542C2AC516AE00D18956 /* CocoaMQTT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53EB542B2AC516AD00D18956 /* XCRemoteSwiftPackageReference "CocoaMQTT" */;
+			productName = CocoaMQTT;
+		};
+		53EB542E2AC516AE00D18956 /* CocoaMQTTWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53EB542B2AC516AD00D18956 /* XCRemoteSwiftPackageReference "CocoaMQTT" */;
+			productName = CocoaMQTTWebSocket;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5351B0F12AC1D8FB0041ACBD /* Project object */;
+}

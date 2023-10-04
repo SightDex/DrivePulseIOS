@@ -18,7 +18,7 @@ struct MainView: View {
 
             VStack {
                 VStack(alignment: .center, spacing: 0) {
-                    Text("DrivePulse:")
+                    Text("DrivePulse: ")
                         .font(.custom("Poppins-SemiBold", size: 35))
                     
                     Text("Control Your Drive")

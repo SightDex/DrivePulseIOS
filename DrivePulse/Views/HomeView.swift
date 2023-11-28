@@ -91,7 +91,7 @@ struct HomeView: View {
                             .font(.subheadline)
                             .foregroundColor(.gray)
 
-                        let totalScoreValue = Float(driver.score) ?? 0.0
+                        let totalScoreValue = Float(driver.score) 
                         ProgressRow(title: "Total Score", value: totalScoreValue, total: 100.0)
                     } else {
                         Text("Loading driver information...")

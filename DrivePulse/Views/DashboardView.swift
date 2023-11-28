@@ -51,9 +51,7 @@ struct DashboardView: View {
                 .tabItem {
                     Label("Settings", systemImage: "gearshape")
                 }
-            
-            // ... other tabs ...
-            
+                        
         }
         .onAppear {
             _ = BLEController(gyroDataModel: gyroDataModel)

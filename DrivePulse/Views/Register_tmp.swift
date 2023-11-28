@@ -42,7 +42,7 @@ struct RegistrationView: View {
                         VStack{
                             Text("Welcome to DrivePulse")
                                 .font(.LoginTitle)
-                                .foregroundColor(Color.accentColor)
+                                .foregroundColor(Color("TitleColor"))
                                 .padding(.bottom, 15)
                             
                             Text("Your journey to safer driving starts here")

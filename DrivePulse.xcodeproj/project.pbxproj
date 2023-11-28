@@ -11,6 +11,11 @@
 		531BD7542ACA3B3500598881 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531BD7532ACA3B3500598881 /* SettingsView.swift */; };
 		531BD7562ACA3BD500598881 /* EventHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531BD7552ACA3BD500598881 /* EventHistoryView.swift */; };
 		531BD75B2ACA41A600598881 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531BD75A2ACA41A600598881 /* APIController.swift */; };
+		5339C4602ACE702D00E6B593 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5339C45C2ACE702D00E6B593 /* Poppins-SemiBold.ttf */; };
+		5339C4612ACE702D00E6B593 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5339C45D2ACE702D00E6B593 /* Poppins-Regular.ttf */; };
+		5339C4622ACE702D00E6B593 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5339C45E2ACE702D00E6B593 /* Poppins-Medium.ttf */; };
+		5339C4632ACE702D00E6B593 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5339C45F2ACE702D00E6B593 /* Poppins-Bold.ttf */; };
+		5339C4662ACE70D900E6B593 /* FontStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5339C4652ACE70D900E6B593 /* FontStyles.swift */; };
 		533F2E6D2AC276030018A02C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533F2E6C2AC276030018A02C /* RegisterView.swift */; };
 		533F2E6F2AC2764E0018A02C /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533F2E6E2AC2764E0018A02C /* DashboardView.swift */; };
 		533F2E712AC27E5D0018A02C /* UtilService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533F2E702AC27E5D0018A02C /* UtilService.swift */; };
@@ -23,13 +28,13 @@
 		5351B1122AC1D9670041ACBD /* BluetoothService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5351B1112AC1D9670041ACBD /* BluetoothService.swift */; };
 		5351B1142AC1D9AD0041ACBD /* MQTTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5351B1132AC1D9AD0041ACBD /* MQTTService.swift */; };
 		5351B1182AC1DA740041ACBD /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5351B1172AC1DA740041ACBD /* AuthViewModel.swift */; };
-		53AC16022ACD82AD00264172 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC16012ACD82AD00264172 /* MainView.swift */; };
 		53EB54262AC5090800D18956 /* BLEController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB54252AC5090800D18956 /* BLEController.swift */; };
 		53EB54282AC5095000D18956 /* GyroDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB54272AC5095000D18956 /* GyroDataModel.swift */; };
 		53EB542A2AC5099900D18956 /* LiveDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB54292AC5099900D18956 /* LiveDataView.swift */; };
 		53EB542D2AC516AE00D18956 /* CocoaMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = 53EB542C2AC516AE00D18956 /* CocoaMQTT */; };
 		53EB542F2AC516AE00D18956 /* CocoaMQTTWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 53EB542E2AC516AE00D18956 /* CocoaMQTTWebSocket */; };
 		53EB54312AC630B300D18956 /* WiFiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB54302AC630B300D18956 /* WiFiService.swift */; };
+		53FE32982ACF7AA8008EA027 /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FE32972ACF7AA8008EA027 /* IndexView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,11 @@
 		531BD7532ACA3B3500598881 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		531BD7552ACA3BD500598881 /* EventHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHistoryView.swift; sourceTree = "<group>"; };
 		531BD75A2ACA41A600598881 /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		5339C45C2ACE702D00E6B593 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../../Downloads/Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		5339C45D2ACE702D00E6B593 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../../Downloads/Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		5339C45E2ACE702D00E6B593 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../../../../Downloads/Poppins/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		5339C45F2ACE702D00E6B593 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../../Downloads/Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		5339C4652ACE70D900E6B593 /* FontStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyles.swift; sourceTree = "<group>"; };
 		533F2E6C2AC276030018A02C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		533F2E6E2AC2764E0018A02C /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		533F2E702AC27E5D0018A02C /* UtilService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilService.swift; sourceTree = "<group>"; };
@@ -52,11 +62,11 @@
 		5351B1112AC1D9670041ACBD /* BluetoothService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothService.swift; sourceTree = "<group>"; };
 		5351B1132AC1D9AD0041ACBD /* MQTTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTService.swift; sourceTree = "<group>"; };
 		5351B1172AC1DA740041ACBD /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
-		53AC16012ACD82AD00264172 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		53EB54252AC5090800D18956 /* BLEController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEController.swift; sourceTree = "<group>"; };
 		53EB54272AC5095000D18956 /* GyroDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroDataModel.swift; sourceTree = "<group>"; };
 		53EB54292AC5099900D18956 /* LiveDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDataView.swift; sourceTree = "<group>"; };
 		53EB54302AC630B300D18956 /* WiFiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiService.swift; sourceTree = "<group>"; };
+		53FE32972ACF7AA8008EA027 /* IndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,11 +82,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		531BD7572ACA403400598881 /* Utils */ = {
+		5339C45B2ACE6FFA00E6B593 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				5339C45F2ACE702D00E6B593 /* Poppins-Bold.ttf */,
+				5339C45E2ACE702D00E6B593 /* Poppins-Medium.ttf */,
+				5339C45D2ACE702D00E6B593 /* Poppins-Regular.ttf */,
+				5339C45C2ACE702D00E6B593 /* Poppins-SemiBold.ttf */,
 			);
-			path = Utils;
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5339C4642ACE70CC00E6B593 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				5339C4652ACE70D900E6B593 /* FontStyles.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 		5351B0F02AC1D8FB0041ACBD = {
@@ -98,8 +120,8 @@
 		5351B0FB2AC1D8FB0041ACBD /* DrivePulse */ = {
 			isa = PBXGroup;
 			children = (
-				531BD7572ACA403400598881 /* Utils */,
 				531BD7502ACA343B00598881 /* Info.plist */,
+				5339C4642ACE70CC00E6B593 /* Styles */,
 				5351B10E2AC1D9360041ACBD /* Services */,
 				5351B10D2AC1D9260041ACBD /* Controllers */,
 				5351B10C2AC1D91D0041ACBD /* Views */,
@@ -107,6 +129,7 @@
 				5351B0FC2AC1D8FB0041ACBD /* DrivePulseApp.swift */,
 				5351B0FE2AC1D8FB0041ACBD /* ContentView.swift */,
 				5351B1002AC1D8FD0041ACBD /* Assets.xcassets */,
+				5339C45B2ACE6FFA00E6B593 /* Fonts */,
 				5351B1022AC1D8FD0041ACBD /* DrivePulse.entitlements */,
 				5351B1032AC1D8FD0041ACBD /* Preview Content */,
 			);
@@ -141,7 +164,7 @@
 				531BD7512ACA39E600598881 /* HomeView.swift */,
 				531BD7532ACA3B3500598881 /* SettingsView.swift */,
 				531BD7552ACA3BD500598881 /* EventHistoryView.swift */,
-				53AC16012ACD82AD00264172 /* MainView.swift */,
+				53FE32972ACF7AA8008EA027 /* IndexView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -232,8 +255,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5339C4602ACE702D00E6B593 /* Poppins-SemiBold.ttf in Resources */,
+				5339C4632ACE702D00E6B593 /* Poppins-Bold.ttf in Resources */,
 				5351B1052AC1D8FD0041ACBD /* Preview Assets.xcassets in Resources */,
 				5351B1012AC1D8FD0041ACBD /* Assets.xcassets in Resources */,
+				5339C4612ACE702D00E6B593 /* Poppins-Regular.ttf in Resources */,
+				5339C4622ACE702D00E6B593 /* Poppins-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +276,8 @@
 				53EB54262AC5090800D18956 /* BLEController.swift in Sources */,
 				531BD7522ACA39E600598881 /* HomeView.swift in Sources */,
 				5351B1102AC1D9440041ACBD /* LoginView.swift in Sources */,
-				53AC16022ACD82AD00264172 /* MainView.swift in Sources */,
+				5339C4662ACE70D900E6B593 /* FontStyles.swift in Sources */,
+				53FE32982ACF7AA8008EA027 /* IndexView.swift in Sources */,
 				533F2E712AC27E5D0018A02C /* UtilService.swift in Sources */,
 				5351B1142AC1D9AD0041ACBD /* MQTTService.swift in Sources */,
 				533F2E6F2AC2764E0018A02C /* DashboardView.swift in Sources */,

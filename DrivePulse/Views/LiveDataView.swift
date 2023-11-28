@@ -52,8 +52,8 @@ struct LiveDataView: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color.red.opacity(0.1))
                 .cornerRadius(10)
-                .scaleEffect(event != nil ? 1 : 0.9)
-                .opacity(event != nil ? 1 : 0.5)
+                .scaleEffect(1)
+                .opacity(1)
                 .animation(
                     Animation.easeInOut(duration: 0.5)
                         .repeatForever(autoreverses: true)

@@ -1,5 +1,5 @@
 //
-//  LoginView.swift
+//  LoginView_tmp.swift
 //  DrivePulse
 //
 //  Created by Linir Zamir on 10/5/23.
@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct LoginView: View {
+struct LoginView_tmp: View {
     @State private var username: String = ""
     @State private var password: String = ""
     @EnvironmentObject var authViewModel: AuthViewModel
@@ -35,12 +35,12 @@ struct LoginView: View {
                         VStack{
                             Text("Welcome Back!")
                                 .font(.LoginTitle)
-                                .foregroundColor(Color.accentColor)
+                                .foregroundColor(Color("TitleColor"))
                             Text("Log in to continue")
                                 .font(.LoginSemiTitle)
                                 .padding(.top, 26)
                         }
-                        .padding(.top, 135)
+                        .padding(.top, 120)
                         .padding(.bottom, 75)
                         
                         VStack{
@@ -80,12 +80,9 @@ struct LoginView: View {
                             }
                             .padding(.bottom, 30)
                             
-                            NavigationLink(destination: RegistrationView().environmentObject(authViewModel)) {
-                                Text("Create New Account")
-                                    .font(.poppins_semibold_14)
-                                    .foregroundColor(Color("DarkGray"))
-                                    .underline()  // Optionally, you can underline it to indicate it's a link
-                            }
+                            Text("Create New Account")
+                                .font(.poppins_semibold_14)
+                                .foregroundColor(Color("DarkGray"))
                             
                         }
                         .padding(.horizontal, 35)

@@ -13,7 +13,7 @@ struct DrivePulseApp: App {
     @StateObject var eventHistoryViewModel = EventHistoryViewModel(authViewModel: AuthViewModel())
     @StateObject var settingsViewModel = SettingsViewModel(authViewModel: AuthViewModel())  // Initialize here
 
-    init() {
+    init() {        
         MQTTService.shared.connect()
     }
 
@@ -26,7 +26,7 @@ struct DrivePulseApp: App {
                         .environmentObject(eventHistoryViewModel) // Pass down
                         .environmentObject(settingsViewModel) // Pass down the new ViewModel
                 } else {
-                    MainView()
+                    IndexView()
                         .environmentObject(authViewModel)
                 }
             }
